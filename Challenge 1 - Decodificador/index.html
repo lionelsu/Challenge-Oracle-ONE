@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Decodificador</title>
+</head>
+<body>
+  
+  <div class="main-wrapper">
+    <header>
+      <img src="./assests/Frame 6.svg" alt="logo da alura">
+    </header>
+
+    <div class="text-wrapper">
+      <main>
+        <form id="criptografar" action="#">
+        <textarea class="input-text" name="criptografar" 
+        placeholder="Digite seu texto..." required></textarea>
+        </form>
+      </main>
+      
+      <span class="span-wrapper">
+        <img src="./assests/bi_exclamation-circle-fill.svg" alt="exclamation circle">
+        Apenas letras minúsculas e sem acento.
+      </span>
+
+      <div class="input-wrapper">
+        <input type="submit" id="criptografar" value="Criptografar" onclick="encrypt()"></input>
+        <input type="submit" id="criptografar" value="Descriptografar" onclick="decrypt()"></input>
+      </div>
+    </div>
+
+    <div class="cipher-wrapper">
+      <div>
+        <img src="./assests/High quality products 1 1.svg" alt="boneco pedindo mensagem">
+      </div>
+      <div class="message-info">
+        <h2>Nenhuma mensagem encontrada</h2>
+        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+      </div>
+    </div>
+
+    <div class="input-cipher-wrapper">
+      <div class="result">
+        <form id="criptografar" action="#">
+          <textarea class="result-text" placeholder="Nenhum texto encontrado." readonly></textarea>
+        </form>
+        <div class="copy-input">
+          <input type="submit" id="copy" value="Copiar" onclick="copyButton()"></input>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer>
+
+  </footer>
+
+  <script src="./js/elements.js"></script>
+</body>
+</html>
