@@ -22,10 +22,11 @@ Here I'll list the projects created during Oracle ONE.
 ---
 
 [Jogo-da-Forca](https://lionelsu.github.io/Challenge-Oracle-ONE/Challenge-02-Challenge-02-Jogo-da-Forca/)
+---
 
 <img src="./Challenge-02-Jogo-da-Forca/assests/Screenshot_13.png" alt="decodificador" width="400"/>
 
 - Technologies used:
-  - JavaScript E6 Modules
+  - JavaScript ES6 Modules
   - CSS
   - HTML
