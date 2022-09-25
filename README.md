@@ -27,6 +27,6 @@ Here I'll list the projects created during Oracle ONE.
 <img src="./Challenge-02-Jogo-da-Forca/assets/Screenshot_13.png" alt="jogo-da-forca" width="400"/>
 
 - Technologies used:
-  - JavaScript ES6 Modules
+  - JavaScript
   - CSS
   - HTML
