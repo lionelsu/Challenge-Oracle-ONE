@@ -21,7 +21,7 @@ Here I'll list the projects created during Oracle ONE.
 2nd Project
 ---
 
-[Jogo-da-Forca](https://lionelsu.github.io/Challenge-Oracle-ONE/Challenge-02-Challenge-02-Jogo-da-Forca/)
+[Jogo-da-Forca](https://lionelsu.github.io/Challenge-Oracle-ONE/Challenge-02-Jogo-da-Forca/)
 ---
 
 <img src="./Challenge-02-Jogo-da-Forca/assets/Screenshot_13.png" alt="jogo-da-forca" width="400"/>
