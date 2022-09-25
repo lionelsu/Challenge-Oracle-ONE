@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Forca - ORACLE + ALURA</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./index.js" defer></script>
+</head>
+<body>
+  <section class="menu">
+    <button class="start-game">Começar a jogar</button>
+    <button class="add-keyword">Adicionar nova palavra</button>
+  </section>
+
+  <section class="newkeyword-wrapper hide">
+    <form id="new-word" action="#">
+      <textarea maxlength="8" id="new-word" name="new-word" class="input-keyword" placeholder="Digite uma palavra" required></textarea>
+      <span><img src="./assets/exclamation.svg" alt="vetor de exclamação">Máx. de 8 letras</span>
+    </form>
+
+    <div class="btn-wrapper">
+      <button id="new-word" type="submit" class="save-start">Salvar e começar</button>
+      <button class="cancel">Cancelar</button>
+    </div>
+  </section>
+
+  <section class="show-hangman hide">
+    <canvas id="hangman" width="1200" height="800">
+    </canvas>
+
+    <div>
+      <button class="new-game">Novo Jogo</button>
+      <button class="give-up">Desistir</button>
+    </div>
+  </section>
+
+  <footer class="footer"></footer>
+</body>
+</html>
